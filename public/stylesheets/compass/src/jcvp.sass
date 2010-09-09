@@ -1,0 +1,161 @@
+@import screen
+@import "compass/utilities/lists/horizontal-list"
+@import "compass/utilities/lists/bullets"
+@import blueprint/ie
++blueprint-ie
+
+$cvp_orange = #ff9900
+$border_grey_solid = 1px solid #CCCCCC
+
+= border_grey_top_bottom
+  :border-top = $border_grey_solid
+  :border-bottom = $border_grey_solid
+
+= border_grey
+  :border = $border_grey_solid
+ 
+body
+  :background-color white
+
+div#main
+  +container
+  :font-family Arial,Verdana,Sans-Serif
+  :font-size 12px
+  div#top
+    +prepend(2)
+    +column(22)
+    +last
+    :margin-bottom 40px
+    :text-align left
+  div#content
+    +column(24)
+    .box
+      :float left
+      :width 310px
+      :height 250px
+      :border none
+      :margin-left 80px
+      :margin-bottom 20px
+    .last
+      +last
+    .blue
+      :background-color #003399
+    .orange
+      :background-color = $cvp_orange
+    .slide-up
+      :float left
+      :width 310px
+      :height 60px
+      :display none
+      :margin-left -310px
+      :background-color white
+      :opacity 0.95
+    .main-nav-text
+      :font-size 30px
+      :text-align center
+      :font-style italic
+      :padding-top 15px
+    h1
+      :font-size 14px
+      :font-weight bold
+      :text-align left
+      :padding-bottom 20px
+    h2
+      :font-size 12px
+      :font-weight bold
+      :text-align left
+      :padding-bottom 20px
+    p
+      :font-size 12px
+      :text-align left
+      :padding-bottom 20px
+    img.box-image
+      :width 310px
+      :height 250px
+    img.people
+      :width 100px
+      :height 100px
+      :cursor pointer        
+    div#breadcrumbs
+      +prepend(2)
+      +column(22)
+      +last
+      :margin-bottom 20px
+      :text-align right
+      :font-size 10px
+      a:link, a:visited
+        :text-decoration none
+        :color black
+      a:hover
+        :color $cvp_orange
+    div#content-left
+      +prepend(2)
+      +column(10)
+      :height 500px
+      :text-align left
+    div#content-right
+      +column(12)
+      +last
+      :text-align left
+      div#people-info
+        +column(12)
+        +last
+        div#people-info-title
+          +column(12)
+          +last
+          +border_grey_top_bottom
+          :cursor pointer    
+          :text-align left
+        div#people-text
+          +column(12)
+          +last
+          :height 150px
+        div.people-portrait
+          +column(12)
+          +last
+          :display none
+          :margin-top 10px
+          #portrait-table
+            .col1
+              :width 100px          
+      div#people-filter
+        +column(12)
+        +last
+        div#filter-title
+          +column(12)
+          +last
+          +border_grey_top_bottom
+          :cursor pointer
+          :text-align left
+        div#filter-chooser
+          +column(12)
+          :display none
+          :margin-top 10px
+          div#map-lu-amt
+            +column(8)
+          div#filter-list
+            +column(4)
+            +last
+            div.filter-list-position
+              +border_grey
+              :margin-bottom 5px
+              :padding-left 2px
+              :height 16px
+              div.x-button
+                :color red
+                :margin-right 10px
+                :float right
+                :cursor pointer
+    div.content-text
+      +prepend(2)
+      +column(22)
+      +last
+    div.content-text-left
+      +prepend(2)
+      +column(15)
+    div.content-text-right
+      +prepend(1)
+      +column(6)
+      +last
+      img
+        :width 230px

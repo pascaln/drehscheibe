@@ -13,31 +13,74 @@ $border_grey_solid = 1px solid #CCCCCC
 
 = border_grey
   :border = $border_grey_solid
- 
+
+= border_grey_top
+  :border-top= $border_grey_solid
+
+= border_grey_bottom
+  :border-bottom = $border_grey_solid
+
+= people-title
+  :font-weight bold
+  :padding 5px 0
+  :font-size 14px
+
 body
   :background-color white
-
+table
+  :line-height 25px
+  :font-size 14px
+td
+  :vertical-align top
+a:link, a:visited
+  :text-decoration none
+  :color black
+a:hover
+  :color $cvp_orange
 div#main
   +container
   :font-family Arial,Verdana,Sans-Serif
   :font-size 12px
   div#top
-    +prepend(2)
-    +column(22)
-    +last
-    :margin-bottom 40px
-    :text-align left
-  div#content
     +column(24)
+    +last
+    :padding-bottom 20px
+    :margin-bottom 15px
+    :text-align left
+    div#top-logo
+      +column(4)
+    div#top-navigation
+      +prepend(2)
+      +column(16)
+      +last
+      :text-align right
+      ul
+        +column(18)
+        :margin-top 10px
+        :list-style none
+        li
+          :font-size 16px
+  .home
+    +prepend(4)
+  .border_bottom
+    +border_grey_bottom
+  div#content.home
+    +prepend(4)
+    +column(20)
+    +last
     .box
       :float left
       :width 310px
       :height 250px
       :border none
-      :margin-left 80px
       :margin-bottom 20px
-    .last
-      +last
+    .mouse-over-box
+      :margin-left -310px
+      a
+        :width 310px
+        :height 250px  
+    .right-box
+      :margin-left 20px
     .blue
       :background-color #003399
     .orange
@@ -49,14 +92,17 @@ div#main
       :display none
       :margin-left -310px
       :background-color white
-      :opacity 0.95
+  div#content
+    +column(24)
+    .last
+      +last
     .main-nav-text
       :font-size 30px
       :text-align center
       :font-style italic
       :padding-top 15px
     h1
-      :font-size 14px
+      :font-size 16px
       :font-weight bold
       :text-align left
       :padding-bottom 20px
@@ -66,7 +112,7 @@ div#main
       :text-align left
       :padding-bottom 20px
     p
-      :font-size 12px
+      :font-size 14px
       :text-align left
       :padding-bottom 20px
     img.box-image
@@ -74,44 +120,42 @@ div#main
       :height 250px
     img.people
       :width 100px
-      :height 100px
+      :height 120px
       :cursor pointer        
     div#breadcrumbs
-      +prepend(2)
-      +column(22)
+      +column(24)
       +last
-      :margin-bottom 20px
-      :text-align right
+      :margin-bottom 30px
+      :text-align left
       :font-size 10px
-      a:link, a:visited
-        :text-decoration none
-        :color black
-      a:hover
-        :color $cvp_orange
     div#content-left
-      +prepend(2)
-      +column(10)
-      :height 500px
+      +column(11)
+      :min-height 500px
       :text-align left
     div#content-right
-      +column(12)
+      +column(13)
       +last
       :text-align left
       div#people-info
-        +column(12)
+        +column(13)
         +last
         div#people-info-title
-          +column(12)
+          +column(13)
           +last
-          +border_grey_top_bottom
+          +border_grey_bottom
+          +people-title
           :cursor pointer    
           :text-align left
         div#people-text
-          +column(12)
+          +column(13)
           +last
-          :height 150px
+          :margin-bottom 20px
+        div#people-clue
+          +column(13)
+          +last
+          :margin-top 10px
         div.people-portrait
-          +column(12)
+          +column(13)
           +last
           :display none
           :margin-top 10px
@@ -119,25 +163,24 @@ div#main
             .col1
               :width 100px          
       div#people-filter
-        +column(12)
+        +column(13)
         +last
         div#filter-title
-          +column(12)
+          +column(13)
           +last
-          +border_grey_top_bottom
+          +border_grey_bottom
+          +people-title
           :cursor pointer
           :text-align left
         div#filter-chooser
-          +column(12)
-          :display none
+          +column(13)
           :margin-top 10px
           div#map-lu-amt
-            +column(8)
+            +column(9)
           div#filter-list
             +column(4)
             +last
             div.filter-list-position
-              +border_grey
               :margin-bottom 5px
               :padding-left 2px
               :height 16px
@@ -147,8 +190,7 @@ div#main
                 :float right
                 :cursor pointer
     div.content-text
-      +prepend(2)
-      +column(22)
+      +column(24)
       +last
     div.content-text-left
       +prepend(2)
@@ -159,3 +201,23 @@ div#main
       +last
       img
         :width 230px
+  div#bottom-info
+    +column(24)
+    +border_grey_top
+    :font-size 10px
+    :margin-top 30px
+    div#impressum
+      +column(12)
+      :text-align left
+    div#mail
+      +column(12)
+      +last
+      :text-align right
+
+table.content-text-table
+  td.table-left-text
+    +column(19)
+    :padding-right 30px
+  td.table-right-text
+    +column(19)
+    :padding-left 30px

@@ -1,21 +1,22 @@
 $(document).ready(function(){
-  $('#goals-image').mouseover(function() {
+  $('#goals-over').mouseover(function() {
    $('#goals-text').slideDown("fast");
   });
-  $('#goals-image').mouseout(function() {
+  $('#goals-over').mouseout(function() {
    $('#goals-text').slideUp("fast");
   });
-  $('#human-image').mouseover(function() {
+  $('#human-over').mouseover(function() {
    $('#human-text').slideDown("fast");
   });
-  $('#human-image').mouseout(function() {
-   $('#human-text').slideUp("fast");
+  $('#human-over').mouseout(function() {
+     $('#human-text').slideUp("fast");
   });
   $('.people').each( function() {
     $(this).mouseover(function() {
        setOtherImageOpacity($(this).attr('id'));
     });
     $(this).click(function() {
+	   $('#people-clue').hide();
        var activePortrait = $(".active-people-portrait");
        if (activePortrait != null)
          activePortrait.hide();
@@ -68,7 +69,7 @@ function applyFilter(className) {
 
 function hasFilter(className){
   var hasClass = false;
-  $('span.x-button').each( function() {
+  $('div.x-button').each( function() {
     if ($(this).parent().hasClass(className))
       hasClass = true;
   });

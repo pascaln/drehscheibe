@@ -1,3 +1,12 @@
 [submodule "vendor/extensions/paperclipped"]
 	path = vendor/extensions/paperclipped
 	url = http://github.com/kbingman/paperclipped.git
+[submodule "vendor/extensions/tiny_paper"]
+	path = vendor/extensions/tiny_paper
+	url = git://github.com/Aissac/radiant-tiny-paper-extension.git
+[submodule "vendor/extensions/gallery"]
+	path = vendor/extensions/gallery
+	url = http://github.com/hairballopolis/radiant-gallery.git
+[submodule "vendor/plugins/attachment_fu"]
+	path = vendor/plugins/attachment_fu
+	url = git://github.com/technoweenie/attachment_fu.git

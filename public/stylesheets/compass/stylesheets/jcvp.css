@@ -961,7 +961,7 @@ div#main div#content div#content-right div#people-info div.people-portrait {
   overflow-x: hidden;
 }
 /* line 323, ../src/jcvp.sass */
-div#main div#content div#content-right div#people-info div.people-portrait #portrait-table .col1 {
+div#main div#content div#content-right div#people-info div.people-portrait .portrait-table .col1 {
   width: 100px;
 }
 /* line 327, ../src/jcvp.sass */

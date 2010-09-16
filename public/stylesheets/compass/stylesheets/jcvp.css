@@ -701,7 +701,7 @@ div#main div#top div#top-logo {
   display: inline;
   float: left;
   margin-right: 10px;
-  width: 150px;
+  width: 230px;
 }
 /* line 139, ../../../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
 * html div#main div#top div#top-logo {
@@ -709,11 +709,10 @@ div#main div#top div#top-logo {
 }
 /* line 103, ../src/jcvp.sass */
 div#main div#top div#top-navigation {
-  padding-left: 80px;
   display: inline;
   float: left;
   margin-right: 10px;
-  width: 630px;
+  width: 710px;
   margin-right: 0;
   text-align: right;
 }
@@ -721,7 +720,7 @@ div#main div#top div#top-navigation {
 * html div#main div#top div#top-navigation {
   overflow-x: hidden;
 }
-/* line 113, ../src/jcvp.sass */
+/* line 111, ../src/jcvp.sass */
 div#main div#top div#top-navigation ul {
   display: inline;
   float: left;
@@ -734,19 +733,19 @@ div#main div#top div#top-navigation ul {
 * html div#main div#top div#top-navigation ul {
   overflow-x: hidden;
 }
-/* line 121, ../src/jcvp.sass */
+/* line 119, ../src/jcvp.sass */
 div#main div#top div#top-navigation ul li {
   font-size: 16px;
 }
-/* line 125, ../src/jcvp.sass */
+/* line 123, ../src/jcvp.sass */
 div#main .home {
   padding-left: 160px;
 }
-/* line 129, ../src/jcvp.sass */
+/* line 127, ../src/jcvp.sass */
 div#main .border_bottom {
   border-bottom: 1px solid #cccccc;
 }
-/* line 133, ../src/jcvp.sass */
+/* line 131, ../src/jcvp.sass */
 div#main div#content.home {
   padding-left: 160px;
   display: inline;
@@ -759,7 +758,7 @@ div#main div#content.home {
 * html div#main div#content.home {
   overflow-x: hidden;
 }
-/* line 141, ../src/jcvp.sass */
+/* line 139, ../src/jcvp.sass */
 div#main div#content.home .box {
   float: left;
   width: 310px;
@@ -767,28 +766,28 @@ div#main div#content.home .box {
   border: none;
   margin-bottom: 20px;
 }
-/* line 153, ../src/jcvp.sass */
+/* line 151, ../src/jcvp.sass */
 div#main div#content.home .mouse-over-box {
   margin-left: -310px;
 }
-/* line 157, ../src/jcvp.sass */
+/* line 155, ../src/jcvp.sass */
 div#main div#content.home .mouse-over-box a {
   width: 310px;
   height: 250px;
 }
-/* line 163, ../src/jcvp.sass */
+/* line 161, ../src/jcvp.sass */
 div#main div#content.home .right-box {
   margin-left: 20px;
 }
-/* line 167, ../src/jcvp.sass */
+/* line 165, ../src/jcvp.sass */
 div#main div#content.home .blue {
   background-color: #003399;
 }
-/* line 171, ../src/jcvp.sass */
+/* line 169, ../src/jcvp.sass */
 div#main div#content.home .orange {
   background-color: #ff9900;
 }
-/* line 175, ../src/jcvp.sass */
+/* line 173, ../src/jcvp.sass */
 div#main div#content.home .slide-up {
   float: left;
   width: 310px;
@@ -797,7 +796,7 @@ div#main div#content.home .slide-up {
   margin-left: -310px;
   background-color: white;
 }
-/* line 189, ../src/jcvp.sass */
+/* line 187, ../src/jcvp.sass */
 div#main div#content {
   display: inline;
   float: left;
@@ -808,49 +807,49 @@ div#main div#content {
 * html div#main div#content {
   overflow-x: hidden;
 }
-/* line 193, ../src/jcvp.sass */
+/* line 191, ../src/jcvp.sass */
 div#main div#content .last {
   margin-right: 0;
 }
-/* line 197, ../src/jcvp.sass */
+/* line 195, ../src/jcvp.sass */
 div#main div#content .main-nav-text {
   font-size: 30px;
   text-align: center;
   font-style: italic;
   padding-top: 15px;
 }
-/* line 207, ../src/jcvp.sass */
+/* line 205, ../src/jcvp.sass */
 div#main div#content h1 {
   font-size: 16px;
   font-weight: bold;
   text-align: left;
   padding-bottom: 20px;
 }
-/* line 217, ../src/jcvp.sass */
+/* line 215, ../src/jcvp.sass */
 div#main div#content h2 {
   font-size: 12px;
   font-weight: bold;
   text-align: left;
   padding-bottom: 20px;
 }
-/* line 227, ../src/jcvp.sass */
+/* line 225, ../src/jcvp.sass */
 div#main div#content p {
   font-size: 14px;
   text-align: left;
   padding-bottom: 20px;
 }
-/* line 235, ../src/jcvp.sass */
+/* line 233, ../src/jcvp.sass */
 div#main div#content img.box-image {
   width: 310px;
   height: 250px;
 }
-/* line 241, ../src/jcvp.sass */
+/* line 239, ../src/jcvp.sass */
 div#main div#content img.people {
   width: 100px;
   height: 120px;
   cursor: pointer;
 }
-/* line 249, ../src/jcvp.sass */
+/* line 247, ../src/jcvp.sass */
 div#main div#content div#breadcrumbs {
   display: inline;
   float: left;
@@ -865,7 +864,7 @@ div#main div#content div#breadcrumbs {
 * html div#main div#content div#breadcrumbs {
   overflow-x: hidden;
 }
-/* line 261, ../src/jcvp.sass */
+/* line 259, ../src/jcvp.sass */
 div#main div#content div#content-left {
   display: inline;
   float: left;
@@ -878,7 +877,7 @@ div#main div#content div#content-left {
 * html div#main div#content div#content-left {
   overflow-x: hidden;
 }
-/* line 269, ../src/jcvp.sass */
+/* line 267, ../src/jcvp.sass */
 div#main div#content div#content-right {
   display: inline;
   float: left;
@@ -891,7 +890,7 @@ div#main div#content div#content-right {
 * html div#main div#content div#content-right {
   overflow-x: hidden;
 }
-/* line 277, ../src/jcvp.sass */
+/* line 275, ../src/jcvp.sass */
 div#main div#content div#content-right div#people-info {
   display: inline;
   float: left;
@@ -903,7 +902,7 @@ div#main div#content div#content-right div#people-info {
 * html div#main div#content div#content-right div#people-info {
   overflow-x: hidden;
 }
-/* line 283, ../src/jcvp.sass */
+/* line 281, ../src/jcvp.sass */
 div#main div#content div#content-right div#people-info div#people-info-title {
   display: inline;
   float: left;
@@ -921,7 +920,7 @@ div#main div#content div#content-right div#people-info div#people-info-title {
 * html div#main div#content div#content-right div#people-info div#people-info-title {
   overflow-x: hidden;
 }
-/* line 297, ../src/jcvp.sass */
+/* line 295, ../src/jcvp.sass */
 div#main div#content div#content-right div#people-info div#people-text {
   display: inline;
   float: left;
@@ -934,7 +933,7 @@ div#main div#content div#content-right div#people-info div#people-text {
 * html div#main div#content div#content-right div#people-info div#people-text {
   overflow-x: hidden;
 }
-/* line 305, ../src/jcvp.sass */
+/* line 303, ../src/jcvp.sass */
 div#main div#content div#content-right div#people-info div#people-clue {
   display: inline;
   float: left;
@@ -947,7 +946,7 @@ div#main div#content div#content-right div#people-info div#people-clue {
 * html div#main div#content div#content-right div#people-info div#people-clue {
   overflow-x: hidden;
 }
-/* line 313, ../src/jcvp.sass */
+/* line 311, ../src/jcvp.sass */
 div#main div#content div#content-right div#people-info div.people-portrait {
   display: inline;
   float: left;
@@ -961,11 +960,11 @@ div#main div#content div#content-right div#people-info div.people-portrait {
 * html div#main div#content div#content-right div#people-info div.people-portrait {
   overflow-x: hidden;
 }
-/* line 325, ../src/jcvp.sass */
+/* line 323, ../src/jcvp.sass */
 div#main div#content div#content-right div#people-info div.people-portrait #portrait-table .col1 {
   width: 100px;
 }
-/* line 329, ../src/jcvp.sass */
+/* line 327, ../src/jcvp.sass */
 div#main div#content div#content-right div#people-filter {
   display: inline;
   float: left;
@@ -977,7 +976,7 @@ div#main div#content div#content-right div#people-filter {
 * html div#main div#content div#content-right div#people-filter {
   overflow-x: hidden;
 }
-/* line 335, ../src/jcvp.sass */
+/* line 333, ../src/jcvp.sass */
 div#main div#content div#content-right div#people-filter div#filter-title {
   display: inline;
   float: left;
@@ -995,7 +994,7 @@ div#main div#content div#content-right div#people-filter div#filter-title {
 * html div#main div#content div#content-right div#people-filter div#filter-title {
   overflow-x: hidden;
 }
-/* line 349, ../src/jcvp.sass */
+/* line 347, ../src/jcvp.sass */
 div#main div#content div#content-right div#people-filter div#filter-chooser {
   display: inline;
   float: left;
@@ -1007,7 +1006,7 @@ div#main div#content div#content-right div#people-filter div#filter-chooser {
 * html div#main div#content div#content-right div#people-filter div#filter-chooser {
   overflow-x: hidden;
 }
-/* line 355, ../src/jcvp.sass */
+/* line 353, ../src/jcvp.sass */
 div#main div#content div#content-right div#people-filter div#filter-chooser div#map-lu-amt {
   display: inline;
   float: left;
@@ -1018,7 +1017,7 @@ div#main div#content div#content-right div#people-filter div#filter-chooser div#
 * html div#main div#content div#content-right div#people-filter div#filter-chooser div#map-lu-amt {
   overflow-x: hidden;
 }
-/* line 359, ../src/jcvp.sass */
+/* line 357, ../src/jcvp.sass */
 div#main div#content div#content-right div#people-filter div#filter-chooser div#filter-list {
   display: inline;
   float: left;
@@ -1030,20 +1029,20 @@ div#main div#content div#content-right div#people-filter div#filter-chooser div#
 * html div#main div#content div#content-right div#people-filter div#filter-chooser div#filter-list {
   overflow-x: hidden;
 }
-/* line 365, ../src/jcvp.sass */
+/* line 363, ../src/jcvp.sass */
 div#main div#content div#content-right div#people-filter div#filter-chooser div#filter-list div.filter-list-position {
   margin-bottom: 5px;
   padding-left: 2px;
   height: 16px;
 }
-/* line 373, ../src/jcvp.sass */
+/* line 371, ../src/jcvp.sass */
 div#main div#content div#content-right div#people-filter div#filter-chooser div#filter-list div.filter-list-position div.x-button {
   color: red;
   margin-right: 10px;
   float: right;
   cursor: pointer;
 }
-/* line 383, ../src/jcvp.sass */
+/* line 381, ../src/jcvp.sass */
 div#main div#content div.content-text {
   display: inline;
   float: left;
@@ -1055,7 +1054,7 @@ div#main div#content div.content-text {
 * html div#main div#content div.content-text {
   overflow-x: hidden;
 }
-/* line 389, ../src/jcvp.sass */
+/* line 387, ../src/jcvp.sass */
 div#main div#content div.content-text-left {
   padding-left: 80px;
   display: inline;
@@ -1067,7 +1066,7 @@ div#main div#content div.content-text-left {
 * html div#main div#content div.content-text-left {
   overflow-x: hidden;
 }
-/* line 395, ../src/jcvp.sass */
+/* line 393, ../src/jcvp.sass */
 div#main div#content div.content-text-right {
   padding-left: 40px;
   display: inline;
@@ -1080,11 +1079,11 @@ div#main div#content div.content-text-right {
 * html div#main div#content div.content-text-right {
   overflow-x: hidden;
 }
-/* line 403, ../src/jcvp.sass */
+/* line 401, ../src/jcvp.sass */
 div#main div#content div.content-text-right img {
   width: 230px;
 }
-/* line 407, ../src/jcvp.sass */
+/* line 405, ../src/jcvp.sass */
 div#main div#bottom-info {
   display: inline;
   float: left;
@@ -1098,7 +1097,7 @@ div#main div#bottom-info {
 * html div#main div#bottom-info {
   overflow-x: hidden;
 }
-/* line 417, ../src/jcvp.sass */
+/* line 415, ../src/jcvp.sass */
 div#main div#bottom-info div#impressum {
   display: inline;
   float: left;
@@ -1110,7 +1109,7 @@ div#main div#bottom-info div#impressum {
 * html div#main div#bottom-info div#impressum {
   overflow-x: hidden;
 }
-/* line 423, ../src/jcvp.sass */
+/* line 421, ../src/jcvp.sass */
 div#main div#bottom-info div#mail {
   display: inline;
   float: left;
@@ -1124,24 +1123,24 @@ div#main div#bottom-info div#mail {
   overflow-x: hidden;
 }
 
-/* line 435, ../src/jcvp.sass */
+/* line 433, ../src/jcvp.sass */
 table.content-text-table td.table-left-text {
   display: inline;
   float: left;
   margin-right: 10px;
-  width: 750px;
+  width: 710px;
   padding-right: 30px;
 }
 /* line 139, ../../../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
 * html table.content-text-table td.table-left-text {
   overflow-x: hidden;
 }
-/* line 441, ../src/jcvp.sass */
+/* line 439, ../src/jcvp.sass */
 table.content-text-table td.table-right-text {
   display: inline;
   float: left;
   margin-right: 10px;
-  width: 750px;
+  width: 710px;
   padding-left: 30px;
 }
 /* line 139, ../../../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
